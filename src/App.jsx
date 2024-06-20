@@ -4,6 +4,7 @@ import Shop from "./pages/Shop";
 import About from "./pages/About";
 import Product from './pages/Product'
 import Header from "./components/global components/Header";
+import Footer from "./components/global components/Footer";
 function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ function App() {
         <Route path="product" element={<Product/>}/>
         <Route path="about" element={<About/>}/>
       </Routes>
+      <Footer/>
     </Router>
   );
 }
