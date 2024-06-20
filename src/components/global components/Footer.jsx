@@ -10,8 +10,7 @@ function Footer() {
         <h2 className="details_title">Furnio.</h2>
 
         <address className="details_address">
-          Suite 200 <br /> 400 University Drive <br /> Coral Gables <br /> CA
-          33134 USA
+          Suite 200400 University Drive Coral GablesCA 33134 USA
         </address>
       </div>
 
@@ -30,7 +29,7 @@ function Footer() {
       <div className="footer_newsletter">
          <h5 className="newsletter_title">Newsletter</h5>
          <form action="#" className="newsletter_form">
-            <input type="email" className="newsletter_input"/>
+            <input type="email" className="newsletter_input" placeholder="Enter Your Email Address"/>
             <input type="button" value="SUBSCRIBE" className="newsletter_button" />
          </form>
       </div>
