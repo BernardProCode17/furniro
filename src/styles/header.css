@@ -39,6 +39,7 @@
    position: absolute;
    top: 0;
    right: 0;
+   z-index: 100;
    background-color: var(--filterToolBar);
    height: auto;
    width: 100%;
@@ -54,11 +55,11 @@
 }
 
 .close_button{
-   width: 5rem;
+   width: rem;
 }
 
 .menu_close_icon {
-   width: 3.125rem;
+   width: 35px;
 }
 
 /* Navigation */

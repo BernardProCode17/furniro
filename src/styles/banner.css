@@ -1,0 +1,67 @@
+/* Banner  */
+.home_banner {
+  position: relative;
+}
+
+.banner_title {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  visibility: hidden;
+  margin: 0rem;
+}
+
+.banner_image {
+height: 70vh;
+object-fit: cover;
+object-position: center bottom;
+}
+
+/* Banner Card */
+.banner_card {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  width: 75%;
+  margin-right: 0.9375rem;
+  padding: 10px;
+  border-radius: 0.4375rem;
+  background-color: var(--bannersecondaryColour);
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  align-items: start;
+}
+
+.banner_card_alert {
+  font-size: 0.7rem;
+  font-weight: var(--fwMedium);
+  margin: 0.5rem 0rem;
+}
+.banner_card_title {
+  color: var(--bannerPrimaryColour);
+  font-size: 1.3rem;
+  line-height: 1.35;
+}
+.banner_card_content {
+  font-size: 0.7rem;
+  font-weight: var(--fwMedium);
+  line-height:1.7;
+  margin: 0.3rem 0rem;
+}
+
+.banner_card_button {
+  background-color: var(--bannerPrimaryColour);
+  padding: 0.7rem 1.3rem;
+  color: var(--WhiteColour);
+  margin: 1rem auto;
+  cursor: pointer;
+}
+.banner_card_button:active{
+   background-color: var(--subtitleTextColour);
+   color: var(--bannersecondaryColour);
+}
+
+.banner_card_button:focus {
+   outline: auto;
+}

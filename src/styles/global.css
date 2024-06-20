@@ -25,27 +25,35 @@ h5 {
 }
 
 a {
-   text-decoration: none;
-   color: var(--headingTextColour);
-   font-weight: var(--fwMedium);
-   padding: 0.3rem;
+  text-decoration: none;
+  color: var(--headingTextColour);
+  font-weight: var(--fwMedium);
+  padding: 0.3rem;
 }
 
-a:hover{
-   text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
-a:focus{
-   border: 2px dashed var(--bannerPrimaryColour);
+a:focus {
+  border: 2px dashed var(--bannerPrimaryColour);
 }
 a:active {
-   border: 2px solid var(--bannerPrimaryColour);
+  border: 2px solid var(--bannerPrimaryColour);
 }
 
 li {
-   list-style: none;
+  list-style: none;
 }
 
 button {
-   border: none;
-   background-color: transparent;
+  border: none;
+  background-color: transparent;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
 }

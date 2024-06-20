@@ -1,10 +1,19 @@
-import React from 'react'
-import bannerImage from '../../assets/bannerImage.png'
+import Banner from "./Banner"
 
 function HomePage() {
   return (
-    <main>
-      <img src={bannerImage} alt=""  width='100%'/>
+    <main className="home">
+
+      {/* Banner */}
+        <Banner/>
+
+      {/* Category range  */}
+
+      {/* Products */}
+
+      {/* inspiration  */}
+
+      {/* #Sharing  */}
     </main>
   )
 }
