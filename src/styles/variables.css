@@ -8,13 +8,13 @@
   --fwNormal: 400;
   --fwMedium: 500;
   --fwSemiblod: 600;
-  --fwBold: 700
+  --fwBold: 900
 
   /* colours */
    --headingTextColour: #3A3A3A;
    --subtitleTextColour:#777777;
    --bannerPrimaryColour: #B88E2F;
-   --bannersecondaryColour: #FFF3E3;
+   --bannersecondaryColour: #fff3e3;
    --WhiteColour: #ffffff;
    --redLabelColour: #E97171;
    --greenLabelColour: #2EC1AC;

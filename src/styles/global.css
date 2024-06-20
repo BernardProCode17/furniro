@@ -1,4 +1,51 @@
-body{
-   font-family: var(--bodyType);
-   color: blue
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  background-color: var(--WhiteColour);
+  font-family: var(--bodyType);
+  font-size: 1rem;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--headingTextColour);
+}
+
+a {
+   text-decoration: none;
+   color: var(--headingTextColour);
+   font-weight: var(--fwMedium);
+   padding: 0.3rem;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+a:focus{
+   border: 2px dashed var(--bannerPrimaryColour);
+}
+a:active {
+   border: 2px solid var(--bannerPrimaryColour);
+}
+
+li {
+   list-style: none;
+}
+
+button {
+   border: none;
+   background-color: transparent;
 }
