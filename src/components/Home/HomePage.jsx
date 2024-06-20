@@ -1,13 +1,15 @@
-import Banner from "./Banner"
+import Banner from "./Banner";
+import Categories from "./Categories";
 
 function HomePage() {
   return (
     <main className="home">
-
+      
       {/* Banner */}
-        <Banner/>
+      <Banner />
 
       {/* Category range  */}
+      <Categories />
 
       {/* Products */}
 
@@ -15,7 +17,7 @@ function HomePage() {
 
       {/* #Sharing  */}
     </main>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
