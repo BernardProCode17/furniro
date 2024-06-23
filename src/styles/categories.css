@@ -1,13 +1,5 @@
 /* categories */
-.categories {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem 0.3rem;
-  text-align: center;
-}
+
 .categories_title {
   color: var(--headingTextColour);
   margin: 0.9rem;
@@ -28,6 +20,11 @@
   width: 100%;
   margin: 1rem;
 }
+
+.categories_card_link:hover{
+  text-decoration: none;
+}
 .categories_card_image {
   width: 100%;
+  border-radius: 3px
 }

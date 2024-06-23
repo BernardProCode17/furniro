@@ -1,0 +1,23 @@
+.products_title {
+ margin-bottom: 0.9rem;
+ color: #3A3A3A
+}
+.products_list{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+
+.product_card {
+   border: 1px solid blue;
+   margin: 0.5rem;
+   width: 40%;
+}
+
+.product_image {
+   width: 100%;
+}

@@ -5,7 +5,7 @@ import BedRoom from '../../assets/bedRoom.png'
 
 function Categories() {
   return (
-    <section className="categories">
+    <section className="categories section">
       <h2 className="categories_title">Browse The Range</h2>
       <p className="categories_description">Browse our range of furniture from various part of your home.</p>
 

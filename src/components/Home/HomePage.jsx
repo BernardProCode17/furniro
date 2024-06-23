@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import Categories from "./Categories";
+import Products from "./Products";
 
 function HomePage() {
   return (
@@ -12,7 +13,7 @@ function HomePage() {
       <Categories />
 
       {/* Products */}
-
+      <Products/>
       {/* inspiration  */}
 
       {/* #Sharing  */}
