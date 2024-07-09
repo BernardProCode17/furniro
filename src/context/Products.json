@@ -1,0 +1,505 @@
+{
+  "name": "furniro products",
+  "description": "this is a list of furniro products",
+  "version": "1.0.0",
+  "author": "Bernard Clarke",
+  "license": "none",
+  "homepage": "https://furniro.com",
+  "repository": "https://github.com/BernardProCode17/furniro.git",
+  "categories": [
+    {
+      "bedroom": {
+        "category_id": 1,
+        "name": "bedroom",
+        "description": "this is a list of bedroom products",
+        "products": [
+          {
+            "product_id": 1,
+            "name": "Oakwood bedside table",
+            "price": 1535,
+            "category": "bedroom",
+            "short_description": "Premium oakwood bedside table",
+            "long_description": "This is a premium oakwood bedside table, it is made from the finest oakwood and it is designed to last a lifetime",
+            "image": "src/context/productImages/bedroom_table_by_benjamin_voros.jpg"
+          },
+          {
+            "product_id": 2,
+            "name": "Oakwood clothing Rack",
+            "price": 1035,
+            "category": "bedroom",
+            "short_description": "Premium oakwood clothing rack",
+            "long_description": "This is a premium oakwood clothing rack, it is made from the finest oakwood and it is designed to last a lifetime",
+            "image": "src/context/productImages/clothing_rack_by_tu_tu.jpg"
+          },
+          {
+            "product_id": 3,
+            "name": "Walnut Nightstand",
+            "price": 1200,
+            "category": "bedroom",
+            "short_description": "Elegant walnut nightstand",
+            "long_description": "Elegant and durable walnut nightstand, perfect for adding a touch of class to your bedroom.",
+            "image": "src/context/productImages/walnut_night_stand_tina_witherspoon.jpg"
+          },
+          {
+            "product_id": 4,
+            "name": "Modern Dresser",
+            "price": 2100,
+            "category": "bedroom",
+            "short_description": "Sleek modern dresser",
+            "long_description": "A sleek and modern dresser that offers ample storage space, making it a practical addition to any bedroom.",
+            "image": "src/context/productImages/modern_dresser_oak_motion.jpg"
+          },
+          {
+            "product_id": 5,
+            "name": "Classic Wooden Wardrobe",
+            "price": 2500,
+            "category": "bedroom",
+            "short_description": "Spacious classic wooden wardrobe",
+            "long_description": "This spacious classic wooden wardrobe combines style with functionality, offering plenty of storage space.",
+            "image": "src/context/productImages/classic_wooden_wardrobe_toa_heftiba.jpg"
+          },
+          {
+            "product_id": 6,
+            "name": "Minimalist Bed Frame",
+            "price": 1800,
+            "category": "bedroom",
+            "short_description": "Sturdy minimalist bed frame",
+            "long_description": "A sturdy and minimalist bed frame that brings a modern touch to any bedroom setting.",
+            "image": "src/context/productImages/minimalist_bed_frame_martti_leetsar.jpg"
+          },
+          {
+            "product_id": 7,
+            "name": "Vintage Vanity Table",
+            "price": 1600,
+            "category": "bedroom",
+            "short_description": "Charming vintage vanity table",
+            "long_description": "A charming vintage vanity table that adds a touch of elegance and sophistication to your bedroom.",
+            "image": "src/context/productImages/vintage_vanity_table_holly_landkammer.jpg"
+          },
+          {
+            "product_id": 8,
+            "name": "Contemporary Bedside Lamp",
+            "price": 350,
+            "category": "bedroom",
+            "short_description": "Stylish contemporary bedside lamp",
+            "long_description": "Illuminate your bedroom with this stylish contemporary bedside lamp, perfect for reading or creating a cozy atmosphere.",
+            "image": "src/context/productImages/contemporary_bedside_lamp_kirill.jpg"
+          },
+          {
+            "product_id": 9,
+            "name": "Plush Bedroom Rug",
+            "price": 600,
+            "category": "bedroom",
+            "short_description": "Soft plush bedroom rug",
+            "long_description": "Add warmth and comfort to your bedroom with this soft plush rug, available in various sizes and colors.",
+            "image": "src/context/productImages/plush_bedroom_rug_josh_hemsley.jpg"
+          },
+          {
+            "product_id": 10,
+            "name": "Adjustable Reading Chair",
+            "price": 950,
+            "category": "bedroom",
+            "short_description": "Comfortable adjustable reading chair",
+            "long_description": "Sit back and relax in this comfortable adjustable reading chair, perfect for unwinding with a good book.",
+            "image": "src/context/productImages/reading_chair_konrad_koller.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "living_room": {
+        "category_id": 2,
+        "name": "living room",
+        "description": "this is a list of living room products",
+        "products": [
+          {
+            "product_id": 11,
+            "name": "Modern Sofa",
+            "price": 2500,
+            "category": "living room",
+            "short_description": "Comfortable modern sofa",
+            "long_description": "A comfortable and stylish modern sofa that fits perfectly in any living room.",
+            "image": "src/context/productImages/modern_sofa_dada_design.jpg"
+          },
+          {
+            "product_id": 12,
+            "name": "Glass Coffee Table",
+            "price": 800,
+            "category": "living room",
+            "short_description": "Elegant glass coffee table",
+            "long_description": "An elegant glass coffee table that combines modern design with functionality.",
+            "image": "src/context/productImages/glass_coffee_table_connor_home.jpg"
+          },
+          {
+            "product_id": 13,
+            "name": "Modern TV Stand",
+            "price": 1200,
+            "category": "living room",
+            "short_description": "Modern TV stand",
+            "long_description": "A modern TV stand that provides ample storage space for your entertainment center.",
+            "image": "src/context/productImages/TV_stand_lasse_jensen.jpg"
+          },
+          {
+            "product_id": 14,
+            "name": "Accent Armchair",
+            "price": 950,
+            "category": "living room",
+            "short_description": "Stylish accent armchair",
+            "long_description": "A stylish accent armchair that adds a pop of color and personality to your living room.",
+            "image": "src/context/productImages/accent_armchair_olena_bohovyk.jpg"
+          },
+          {
+            "product_id": 15,
+            "name": "Industrial Floor Lamp",
+            "price": 400,
+            "category": "living room",
+            "short_description": "Sleek industrial floor lamp",
+            "long_description": "Illuminate your living space with this sleek industrial floor lamp, perfect for creating a modern and cozy atmosphere.",
+            "image": "src/context/productImages/modern_floor_lamp_mk_s.jpg"
+          },
+          {
+            "product_id": 16,
+            "name": "Mid-Century Side Table",
+            "price": 600,
+            "category": "living room",
+            "short_description": "Stylish mid-century side table",
+            "long_description": "A stylish mid-century side table that adds a touch of retro charm to your living room decor.",
+            "image": "src/context/productImages/side_table_avery_klein.jpg"
+          },
+          {
+            "product_id": 17,
+            "name": "Throw Pillows",
+            "price": 50,
+            "category": "living room",
+            "short_description": "Luxurious throw pillows",
+            "long_description": "Add a touch of luxury to your living room with these soft and plush throw pillows.",
+            "image": "src/context/productImages/throw_pillows_hutomo-abrianto.jpg"
+          },
+          {
+            "product_id": 18,
+            "name": "Modern Area Rug",
+            "price": 700,
+            "category": "living room",
+            "short_description": "Sleek modern area rug",
+            "long_description": "Enhance your living room decor with this sleek modern area rug, available in various sizes and colors.",
+            "image": "src/context/productImages/modern_area_rug_clay_banks.jpg"
+          },
+          {
+            "product_id": 19,
+            "name": "Decorative Wall Art",
+            "price": 300,
+            "category": "living room",
+            "short_description": "Stylish decorative wall art",
+            "long_description": "Elevate your living room decor with this stylish decorative wall art, available in a variety of designs and sizes.",
+            "image": "src/context/productImages/wall_art_stephanie_harvey.jpg"
+          },
+          {
+            "product_id": 20,
+            "name": "Cozy Throw Blanket",
+            "price": 80,
+            "category": "living room",
+            "short_description": "Soft and cozy throw blanket",
+            "long_description": "Wrap yourself in comfort with this soft and cozy throw blanket, perfect for chilly evenings in the living room.",
+            "image": "src/context/productImages/cozy_throw_blanket_taylor_hernandez.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "dinning_room": {
+        "category_id": 3,
+        "name": "dinning room",
+        "description": "this is a list of dinning room products",
+        "products": [
+          {
+            "product_id": 21,
+            "name": "Wooden Dining Table",
+            "price": 3200,
+            "category": "dinning room",
+            "short_description": "Spacious wooden dining table",
+            "long_description": "A spacious wooden dining table that brings warmth and elegance to any dinning room.",
+            "image": "../context/productImages/wooden_dining_table.jpg"
+          },
+          {
+            "product_id": 22,
+            "name": "Dining Chair Set",
+            "price": 1500,
+            "category": "dinning room",
+            "short_description": "Elegant dining chair set",
+            "long_description": "An elegant set of dining chairs that complement any dining table.",
+            "image": "../context/productImages/dining_chair_set.jpg"
+          },
+          {
+            "product_id": 23,
+            "name": "Minimalist Bar Stool",
+            "price": 450,
+            "category": "dinning room",
+            "short_description": "Sleek minimalist bar stool",
+            "long_description": "A sleek and minimalist bar stool that adds a modern touch to any dining area.",
+            "image": "../context/productImages/minimalist_bar_stool.jpg"
+          },
+          {
+            "product_id": 24,
+            "name": "Rustic Buffet Table",
+            "price": 1750,
+            "category": "dinning room",
+            "short_description": "Charming rustic buffet table",
+            "long_description": "A charming rustic buffet table that provides ample storage and adds a warm, inviting feel to your dining room.",
+            "image": "../context/productImages/rustic_buffet_table.jpg"
+          },
+          {
+            "product_id": 25,
+            "name": "Contemporary Chandelier",
+            "price": 1300,
+            "category": "dinning room",
+            "short_description": "Elegant contemporary chandelier",
+            "long_description": "Illuminate your dining space with this elegant contemporary chandelier, perfect for creating a sophisticated atmosphere.",
+            "image": "../context/productImages/contemporary_chandelier.jpg"
+          },
+          {
+            "product_id": 26,
+            "name": "Round Marble Dining Table",
+            "price": 2200,
+            "category": "dinning room",
+            "short_description": "Luxurious round marble dining table",
+            "long_description": "A luxurious round marble dining table that serves as a stunning centerpiece for any dining room.",
+            "image": "../context/productImages/round_marble_dining_table.jpg"
+          },
+          {
+            "product_id": 27,
+            "name": "Leather Dining Chairs",
+            "price": 2000,
+            "category": "dinning room",
+            "short_description": "Set of leather dining chairs",
+            "long_description": "A set of luxurious leather dining chairs that combine comfort with elegance, enhancing any dining table.",
+            "image": "../context/productImages/leather_dining_chairs.jpg"
+          },
+          {
+            "product_id": 28,
+            "name": "Sideboard Cabinet",
+            "price": 1600,
+            "category": "dinning room",
+            "short_description": "Modern sideboard cabinet",
+            "long_description": "A modern sideboard cabinet that offers stylish storage solutions for your dining room essentials.",
+            "image": "../context/productImages/sideboard_cabinet.jpg"
+          },
+          {
+            "product_id": 29,
+            "name": "Decorative Centerpiece Bowl",
+            "price": 300,
+            "category": "dinning room",
+            "short_description": "Elegant decorative centerpiece bowl",
+            "long_description": "An elegant decorative centerpiece bowl that adds a touch of sophistication to any dining table.",
+            "image": "../context/productImages/decorative_centerpiece_bowl.jpg"
+          },
+          {
+            "product_id": 30,
+            "name": "Wall-Mounted Wine Rack",
+            "price": 550,
+            "category": "dinning room",
+            "short_description": "Stylish wall-mounted wine rack",
+            "long_description": "A stylish wall-mounted wine rack that provides a unique and convenient way to store and display your wine collection.",
+            "image": "../context/productImages/wall_mounted_wine_rack.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "office": {
+        "category_id": 4,
+        "name": "office",
+        "description": "this is a list of office products",
+        "products": [
+          {
+            "product_id": 31,
+            "name": "Ergonomic Office Chair",
+            "price": 1200,
+            "category": "office",
+            "short_description": "Comfortable ergonomic office chair",
+            "long_description": "A comfortable ergonomic office chair designed for long hours of work.",
+            "image": "../context/productImages/ergonomic_office_chair.jpg"
+          },
+          {
+            "product_id": 32,
+            "name": "Modern Desk",
+            "price": 1100,
+            "category": "office",
+            "short_description": "Sleek modern desk",
+            "long_description": "A sleek modern desk that provides a spacious work area for any office setting.",
+            "image": "../context/productImages/modern_desk.jpg"
+          },
+          {
+            "product_id": 33,
+            "name": "Adjustable Standing Desk",
+            "price": 1400,
+            "category": "office",
+            "short_description": "Versatile adjustable standing desk",
+            "long_description": "Elevate your workspace with this versatile adjustable standing desk, designed for comfort and productivity.",
+            "image": "../context/productImages/adjustable_standing_desk.jpg"
+          },
+          {
+            "product_id": 34,
+            "name": "Mesh Back Office Chair",
+            "price": 950,
+            "category": "office",
+            "short_description": "Breathable mesh back office chair",
+            "long_description": "Stay comfortable through long work hours with this breathable mesh back office chair, offering lumbar support and adjustability.",
+            "image": "../context/productImages/mesh_back_office_chair.jpg"
+          },
+          {
+            "product_id": 35,
+            "name": "Office Bookcase",
+            "price": 800,
+            "category": "office",
+            "short_description": "Spacious office bookcase",
+            "long_description": "Organize your books and documents efficiently with this spacious office bookcase, featuring adjustable shelves.",
+            "image": "../context/productImages/office_bookcase.jpg"
+          },
+          {
+            "product_id": 36,
+            "name": "LED Desk Lamp",
+            "price": 120,
+            "category": "office",
+            "short_description": "Energy-efficient LED desk lamp",
+            "long_description": "Illuminate your workspace with this energy-efficient LED desk lamp, featuring adjustable brightness and color temperature.",
+            "image": "../context/productImages/led_desk_lamp.jpg"
+          },
+          {
+            "product_id": 37,
+            "name": "L-Shaped Desk",
+            "price": 1250,
+            "category": "office",
+            "short_description": "Spacious L-shaped desk",
+            "long_description": "Maximize your workspace with this spacious L-shaped desk, perfect for multitasking and large setups.",
+            "image": "../context/productImages/l_shaped_desk.jpg"
+          },
+          {
+            "product_id": 38,
+            "name": "File Cabinet",
+            "price": 600,
+            "category": "office",
+            "short_description": "Lockable file cabinet",
+            "long_description": "Secure your documents in this lockable file cabinet, featuring multiple drawers for organized storage.",
+            "image": "../context/productImages/file_cabinet.jpg"
+          },
+          {
+            "product_id": 39,
+            "name": "Monitor Stand",
+            "price": 150,
+            "category": "office",
+            "short_description": "Ergonomic monitor stand",
+            "long_description": "Elevate your monitor to eye level with this ergonomic monitor stand, reducing neck strain and increasing desk space.",
+            "image": "../context/productImages/monitor_stand.jpg"
+          },
+          {
+            "product_id": 40,
+            "name": "Keyboard Tray",
+            "price": 200,
+            "category": "office",
+            "short_description": "Adjustable keyboard tray",
+            "long_description": "Improve your typing posture with this adjustable keyboard tray, designed to fit under your desk.",
+            "image": "../context/productImages/keyboard_tray.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "library": {
+        "category_id": 5,
+        "name": "library",
+        "description": "this is a list of home library products",
+        "products": [
+          {
+            "product_id": 17,
+            "name": "Wooden Bookshelf",
+            "price": 2000,
+            "category": "library",
+            "short_description": "Spacious wooden bookshelf",
+            "long_description": "A spacious wooden bookshelf that offers ample storage for your books and decorations.",
+            "image": "../context/productImages/wooden_bookshelf.jpg"
+          },
+          {
+            "product_id": 18,
+            "name": "Reading Lamp",
+            "price": 450,
+            "category": "library",
+            "short_description": "Adjustable reading lamp",
+            "long_description": "An adjustable reading lamp that provides perfect lighting for reading."
+          },
+          {
+            "product_id": 19,
+            "name": "Leather Reading Chair",
+            "price": 1800,
+            "category": "library",
+            "short_description": "Comfortable leather reading chair",
+            "long_description": "A luxurious leather reading chair designed for hours of comfortable reading and relaxation.",
+            "image": "../context/productImages/leather_reading_chair.jpg"
+          },
+          {
+            "product_id": 20,
+            "name": "Antique Globe",
+            "price": 750,
+            "category": "library",
+            "short_description": "Detailed antique globe",
+            "long_description": "An exquisite antique globe that adds a touch of elegance and curiosity to any library.",
+            "image": "../context/productImages/antique_globe.jpg"
+          },
+          {
+            "product_id": 21,
+            "name": "Vintage Desk",
+            "price": 2500,
+            "category": "library",
+            "short_description": "Elegant vintage desk",
+            "long_description": "A beautifully crafted vintage desk that provides a perfect setting for writing and study.",
+            "image": "../context/productImages/vintage_desk.jpg"
+          },
+          {
+            "product_id": 22,
+            "name": "Wall-Mounted Bookshelves",
+            "price": 1600,
+            "category": "library",
+            "short_description": "Modern wall-mounted bookshelves",
+            "long_description": "Sleek and modern wall-mounted bookshelves that save space while displaying your book collection.",
+            "image": "../context/productImages/wall_mounted_bookshelves.jpg"
+          },
+          {
+            "product_id": 23,
+            "name": "Floor Reading Lamp",
+            "price": 500,
+            "category": "library",
+            "short_description": "Adjustable floor reading lamp",
+            "long_description": "An adjustable floor reading lamp with a modern design, providing perfect lighting for any reading nook.",
+            "image": "../context/productImages/floor_reading_lamp.jpg"
+          },
+          {
+            "product_id": 24,
+            "name": "Ornate Bookends",
+            "price": 300,
+            "category": "library",
+            "short_description": "Decorative ornate bookends",
+            "long_description": "Keep your books organized and in style with these decorative ornate bookends.",
+            "image": "../context/productImages/ornate_bookends.jpg"
+          },
+          {
+            "product_id": 25,
+            "name": "Ladder Bookshelf",
+            "price": 950,
+            "category": "library",
+            "short_description": "Stylish ladder bookshelf",
+            "long_description": "A stylish ladder bookshelf that offers a unique way to store and display books and decorations.",
+            "image": "../context/productImages/ladder_bookshelf.jpg"
+          },
+          {
+            "product_id": 26,
+            "name": "Study Lamp",
+            "price": 220,
+            "category": "library",
+            "short_description": "Sleek study lamp",
+            "long_description": "A sleek and modern study lamp that provides ample lighting for reading and studying.",
+            "image": "../context/productImages/study_lamp.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}

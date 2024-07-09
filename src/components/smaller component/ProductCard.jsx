@@ -1,19 +1,23 @@
 import AddToCart from "./AddToCart";
-import productImage from "../../assets/productImage1.png";
 
-function ProductCard() {
-  return (
-    <article className="product_card">
-      <img src={productImage} alt="" className="product_image" />
+function ProductCard({product}) {
 
-      <div>
-        <p className="product_title">Product title</p>
-        <span className="product_price">Product price $100 </span>
-        <AddToCart />
-      </div>
-      
-    </article>
-  );
+    const {name, price, short_description, image} = product;
+    console.log(image)
+
+    return (
+        <article className="product_card">
+            <img src={image} alt="" className="product_image"/>
+
+            <div>
+                <h5 className="product_title">{name}</h5>
+                <span className="product_price">{`$${price}`}</span>
+                <p className="product_description">{short_description}</p>
+                <AddToCart/>
+            </div>
+
+        </article>
+    );
 }
 
 export default ProductCard;
