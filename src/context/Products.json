@@ -290,7 +290,7 @@
             "category": "dinning room",
             "short_description": "Elegant decorative centerpiece bowl",
             "long_description": "An elegant decorative centerpiece bowl that adds a touch of sophistication to any dining table.",
-            "image": "../context/productImages/decorative_centerpiece_bowl.jpg"
+            "image": "../context/productImages/decorative_centerpiece_zane_persaud.jpg"
           },
           {
             "product_id": 30,
@@ -299,7 +299,7 @@
             "category": "dinning room",
             "short_description": "Stylish wall-mounted wine rack",
             "long_description": "A stylish wall-mounted wine rack that provides a unique and convenient way to store and display your wine collection.",
-            "image": "../context/productImages/wall_mounted_wine_rack.jpg"
+            "image": "../context/productImages/wall_mounted_wine_Rack_viktor_nikolaienko.jpg"
           }
         ]
       }
@@ -317,7 +317,7 @@
             "category": "office",
             "short_description": "Comfortable ergonomic office chair",
             "long_description": "A comfortable ergonomic office chair designed for long hours of work.",
-            "image": "../context/productImages/ergonomic_office_chair.jpg"
+            "image": "../context/productImages/ergonomic_office_chair_effydesk.jpg"
           },
           {
             "product_id": 32,
@@ -326,7 +326,7 @@
             "category": "office",
             "short_description": "Sleek modern desk",
             "long_description": "A sleek modern desk that provides a spacious work area for any office setting.",
-            "image": "../context/productImages/modern_desk.jpg"
+            "image": "../context/productImages/modern_desk_effydesk.jpg"
           },
           {
             "product_id": 33,
@@ -335,70 +335,70 @@
             "category": "office",
             "short_description": "Versatile adjustable standing desk",
             "long_description": "Elevate your workspace with this versatile adjustable standing desk, designed for comfort and productivity.",
-            "image": "../context/productImages/adjustable_standing_desk.jpg"
+            "image": "../context/productImages/adjustable_standing_desk_thestandingdesk.jpg"
           },
           {
             "product_id": 34,
             "name": "Mesh Back Office Chair",
-            "price": 950,
+            "price": 1200,
             "category": "office",
             "short_description": "Breathable mesh back office chair",
             "long_description": "Stay comfortable through long work hours with this breathable mesh back office chair, offering lumbar support and adjustability.",
-            "image": "../context/productImages/mesh_back_office_chair.jpg"
+            "image": "../context/productImages/mesh_office_chair_onno.jpg"
           },
           {
             "product_id": 35,
             "name": "Office Bookcase",
-            "price": 800,
+            "price": 3700,
             "category": "office",
             "short_description": "Spacious office bookcase",
             "long_description": "Organize your books and documents efficiently with this spacious office bookcase, featuring adjustable shelves.",
-            "image": "../context/productImages/office_bookcase.jpg"
+            "image": "../context/productImages/office_bookcase_geon-george.jpg"
           },
           {
             "product_id": 36,
             "name": "LED Desk Lamp",
-            "price": 120,
+            "price": 320,
             "category": "office",
             "short_description": "Energy-efficient LED desk lamp",
             "long_description": "Illuminate your workspace with this energy-efficient LED desk lamp, featuring adjustable brightness and color temperature.",
-            "image": "../context/productImages/led_desk_lamp.jpg"
+            "image": "../context/productImages/LED_desk_lamp_marissa_grootes.jpg"
           },
           {
             "product_id": 37,
-            "name": "L-Shaped Desk",
-            "price": 1250,
+            "name": "Ergonomic Keyboard",
+            "price": 575,
             "category": "office",
-            "short_description": "Spacious L-shaped desk",
-            "long_description": "Maximize your workspace with this spacious L-shaped desk, perfect for multitasking and large setups.",
-            "image": "../context/productImages/l_shaped_desk.jpg"
+            "short_description": "Comfortable ergonomic keyboard for typing",
+            "long_description": "An ergonomic keyboard designed to reduce strain and enhance typing comfort, perfect for long work sessions.",
+            "image": "../context/productImages/ergonomic_keyboard_peppy_toad.jpg"
           },
           {
             "product_id": 38,
             "name": "File Cabinet",
-            "price": 600,
+            "price": 1700,
             "category": "office",
             "short_description": "Lockable file cabinet",
             "long_description": "Secure your documents in this lockable file cabinet, featuring multiple drawers for organized storage.",
-            "image": "../context/productImages/file_cabinet.jpg"
+            "image": "../context/productImages/file_cabinet_yan_ots.jpg"
           },
           {
             "product_id": 39,
             "name": "Monitor Stand",
-            "price": 150,
+            "price": 599,
             "category": "office",
             "short_description": "Ergonomic monitor stand",
             "long_description": "Elevate your monitor to eye level with this ergonomic monitor stand, reducing neck strain and increasing desk space.",
-            "image": "../context/productImages/monitor_stand.jpg"
+            "image": "../context/productImages/monitor_stand_behnam_norouzi.jpg"
           },
           {
             "product_id": 40,
-            "name": "Keyboard Tray",
-            "price": 200,
+            "name": "Office Clock",
+            "price": 390,
             "category": "office",
-            "short_description": "Adjustable keyboard tray",
-            "long_description": "Improve your typing posture with this adjustable keyboard tray, designed to fit under your desk.",
-            "image": "../context/productImages/keyboard_tray.jpg"
+            "short_description": "Elegant office clock",
+            "long_description": "Keep track of time with elegance using this office clock, designed to blend seamlessly into any office decor while providing clear, accurate timekeeping.",
+            "image": "../context/productImages/office_clock_samantha_gades.jpg"
           }
         ]
       }
@@ -416,15 +416,16 @@
             "category": "library",
             "short_description": "Spacious wooden bookshelf",
             "long_description": "A spacious wooden bookshelf that offers ample storage for your books and decorations.",
-            "image": "../context/productImages/wooden_bookshelf.jpg"
+            "image": "../context/productImages/wooden_bookshelf_elimende_inagella.jpg"
           },
           {
             "product_id": 18,
             "name": "Reading Lamp",
-            "price": 450,
+            "price":755,
             "category": "library",
             "short_description": "Adjustable reading lamp",
-            "long_description": "An adjustable reading lamp that provides perfect lighting for reading."
+            "long_description": "An adjustable reading lamp that provides perfect lighting for reading.",
+            "image": "../context/productImages/reading_lamp_esma.jpg"
           },
           {
             "product_id": 19,
@@ -433,16 +434,16 @@
             "category": "library",
             "short_description": "Comfortable leather reading chair",
             "long_description": "A luxurious leather reading chair designed for hours of comfortable reading and relaxation.",
-            "image": "../context/productImages/leather_reading_chair.jpg"
+            "image": "../context/productImages/leather_reading_chair_kari_shea.jpg"
           },
           {
             "product_id": 20,
             "name": "Antique Globe",
-            "price": 750,
+            "price": 2300,
             "category": "library",
             "short_description": "Detailed antique globe",
             "long_description": "An exquisite antique globe that adds a touch of elegance and curiosity to any library.",
-            "image": "../context/productImages/antique_globe.jpg"
+            "image": "../context/productImages/antique_globe_sergey_sokolov.jpg"
           },
           {
             "product_id": 21,
@@ -451,7 +452,7 @@
             "category": "library",
             "short_description": "Elegant vintage desk",
             "long_description": "A beautifully crafted vintage desk that provides a perfect setting for writing and study.",
-            "image": "../context/productImages/vintage_desk.jpg"
+            "image": "../context/productImages/vintage_desk_tina_park.jpg"
           },
           {
             "product_id": 22,
@@ -460,25 +461,25 @@
             "category": "library",
             "short_description": "Modern wall-mounted bookshelves",
             "long_description": "Sleek and modern wall-mounted bookshelves that save space while displaying your book collection.",
-            "image": "../context/productImages/wall_mounted_bookshelves.jpg"
+            "image": "../context/productImages/wall_mounted_book_shelfs_yunus_tug.jpg"
           },
           {
             "product_id": 23,
             "name": "Floor Reading Lamp",
-            "price": 500,
+            "price": 1500,
             "category": "library",
             "short_description": "Adjustable floor reading lamp",
             "long_description": "An adjustable floor reading lamp with a modern design, providing perfect lighting for any reading nook.",
-            "image": "../context/productImages/floor_reading_lamp.jpg"
+            "image": "../context/productImages/floor_reading_lamp_francesca_tosolini.jpg"
           },
           {
             "product_id": 24,
-            "name": "Ornate Bookends",
-            "price": 300,
+            "name": "Classic Wooden Study Table",
+            "price": 1200,
             "category": "library",
-            "short_description": "Decorative ornate bookends",
-            "long_description": "Keep your books organized and in style with these decorative ornate bookends.",
-            "image": "../context/productImages/ornate_bookends.jpg"
+            "short_description": "Elegant and durable study table",
+            "long_description": "An elegant and durable study table, perfect for creating a focused workspace in your home library.",
+            "image": "../context/productImages/classic_wooden_study_table_medium_rare.jpg"
           },
           {
             "product_id": 25,
@@ -487,7 +488,7 @@
             "category": "library",
             "short_description": "Stylish ladder bookshelf",
             "long_description": "A stylish ladder bookshelf that offers a unique way to store and display books and decorations.",
-            "image": "../context/productImages/ladder_bookshelf.jpg"
+            "image": "../context/productImages/ladder_bookshelf_mitchell_luo.jpg"
           },
           {
             "product_id": 26,
@@ -496,7 +497,7 @@
             "category": "library",
             "short_description": "Sleek study lamp",
             "long_description": "A sleek and modern study lamp that provides ample lighting for reading and studying.",
-            "image": "../context/productImages/study_lamp.jpg"
+            "image": "../context/productImages/wall_mounted_study_lamp_atilla_taskiran.jpg"
           }
         ]
       }
