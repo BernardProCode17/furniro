@@ -1,0 +1,51 @@
+/* Shopp page*/
+
+/* Shop Banner */
+.shop_banner {
+    width: 100%;
+    height: 25vh;
+    padding: 0;
+    position: relative;
+}
+
+.shop_banner_title {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: var(--headingTextColour);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    z-index: 100;
+    visibility: visible;
+}
+
+.banner_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+}
+
+/* Bread crumb Navigation*/
+.shop_breadcrumb {
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    left: 30%;
+}
+
+.breadcrumb_list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: var(--headingTextColour);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.breadcrumb_link-active {
+    color: blue;
+}

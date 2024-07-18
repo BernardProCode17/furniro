@@ -1,92 +1,96 @@
 /* header  */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0.3rem 0.7rem;
-  width: auto;
-  overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3rem 0.7rem;
+    width: auto;
+    overflow: hidden;
 }
 
 /* Logo */
 .header_logo {
-   display: flex;
-   column-gap: 0.3rem;
+    display: flex;
+    column-gap: 0.3rem;
 }
 
-.logo_link:hover,.logo_link:focus{
-   text-decoration: none;
-   border: none;
+.logo_link:hover, .logo_link:focus {
+    text-decoration: none;
+    border: none;
 }
+
 .logo_image {
-   width: 50px;
+    width: 50px;
 }
+
 .logo_text {
-   font-family: var(--logoType);
-   font-weight: 700;
-   font-size: 34px;
+    font-family: var(--logoType) sans-serif;
+    font-weight: 700;
+    font-size: 34px;
 }
 
 /* Menu */
-.menu_button{
-   display: block;
+.menu_button {
+    display: block;
 }
-.menu_button-hidden{
-   display: none;
+
+.menu_button-hidden {
+    display: none;
 }
 
 .menu_open {
-   position: absolute;
-   top: 0;
-   right: 0;
-   z-index: 100;
-   background-color: var(--filterToolBar);
-   height: auto;
-   width: 100%;
-   height: 100vh;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   align-items: center;
-   padding: 1rem 0rem;
-}
-.menu_close{
-   display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: var(--filterToolBar);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0;
 }
 
-.close_button{
-   width: rem;
+.menu_close {
+    display: none;
+}
+
+.close_button {
+    width: 0;
 }
 
 .menu_close_icon {
-   width: 35px;
+    width: 35px;
 }
 
 /* Navigation */
 .header_nav {
-padding: 1rem;
+    padding: 1rem;
 }
 
 .nav_li {
-   margin: 2rem
+    margin: 2rem
 }
+
 .nav_link {
-   font-size: 1.25rem
+    font-size: 1.25rem
 }
 
 /* Menu icons */
 .header_icons {
-   width: 50%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   column-gap: 1.7rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.7rem;
 }
 
-.icons-button:focus{
-   border: 2px dashed var(--bannerPrimaryColour);
+.icons-button:focus {
+    border: 2px dashed var(--bannerPrimaryColour);
 }
 
-.icons-button: {
-   border: 2px solid var(--bannerPrimaryColour);
+.icons-button {
+    border: 2px solid var(--bannerPrimaryColour);
 }
