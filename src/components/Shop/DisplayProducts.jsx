@@ -5,16 +5,16 @@ function DisplayProducts() {
 
     const allProducts = products.categories.map(category => Object.values(category)[0].products);
 
-    // console.log(allProducts);
-
     return (
-        <section className="Shop_display_products section">
-            {allProducts.map(category => {
-                category.map(product => {
-                    return <ProductCard key={product.product_id} product={product}/>
-                })
-            })}
+        <section className="shop_display_products">
 
+            {allProducts.map(category => (
+                category.map((product, index) =>
+                    <ProductCard key={index} product={product}/>
+                )
+            ))}
+
+            {/* page pagination*/}
         </section>
     )
 }

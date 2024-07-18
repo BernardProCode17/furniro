@@ -7,7 +7,6 @@ function ShopBanner() {
             <h1 className="shop_banner_title">Shop</h1>
             <img className="banner_image" src={shopBannerImage}
                  alt="blurred background image of a table with flower pots and pictures frames"/>
-
             <BreadCrumb/>
         </section>
     )

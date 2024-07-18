@@ -1,17 +1,19 @@
+import {Link} from "react-router-dom";
 
 
-function BannnerCard() {
-  return (
-    <div className="banner_card">
-      <p className="banner_card_alert">New Arrival </p>
+function BannerCard() {
+    return (
+        <div className="banner_card">
+            <p className="banner_card_alert">New Arrival </p>
 
-      <h2 className="banner_card_title">Discover Our New Collection</h2>
+            <h2 className="banner_card_title">Discover Our New Collection</h2>
 
-      <p className="banner_card_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit explicabo ducimus vero! Magnam, nam velit</p>
+            <p className="banner_card_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit explicabo
+                ducimus vero! Magnam, nam velit</p>
 
-      <button className="banner_card_button">BUY NOW</button>
-    </div>
-  )
+            <Link to='/shop' className="banner_card_button">BUY NOW</Link>
+        </div>
+    )
 }
 
-export default BannnerCard
+export default BannerCard

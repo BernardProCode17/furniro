@@ -11,21 +11,21 @@ import Cart from "../pages/Cart.jsx";
 
 function App() {
     return (<GlobalContext>
-        <Router>
-            <Header/>
-            <Routes>
-                <Route index element={<Home/>}/>
-                <Route path="Shop" element={<Shop/>}>
-                    <Route path=":id" element={<Product/>}/>
-                </Route>
-                <Route path="about" element={<About/>}/>
-                <Route path="contact" element={<Contact/>}/>
-                <Route path="cart" element={<Cart/>}/>
-                <Route path="*" element={<h1>404 Not Found</h1>}/>
-            </Routes>
-            <Footer/>
-        </Router>
-    </GlobalContext>);
+            <Router>
+                <Header/>
+                <Routes>
+                    <Route index element={<Home/>}/>
+                    <Route path="Shop" element={<Shop/>}/>
+                    <Route path="/product/:id" element={<Product/>}/>
+                    <Route path="about" element={<About/>}/>
+                    <Route path="contact" element={<Contact/>}/>
+                    <Route path="cart" element={<Cart/>}/>
+                    <Route path="*" element={<h1>404 Not Found</h1>}/>
+                </Routes>
+                <Footer/>
+            </Router>
+        </GlobalContext>
+    );
 }
 
 export default App;

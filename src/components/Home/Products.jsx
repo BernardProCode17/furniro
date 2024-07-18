@@ -7,7 +7,6 @@ function Products() {
     const allProducts = products.categories.map(category => Object.values(category)[0].products);
     const shuffledProducts = allProducts.flat().sort(() => 0.5 - Math.random());
     const limitedCards = shuffledProducts.slice(0, 8);
-    console.log(allProducts)
 
     return (
         <section className="products section">
